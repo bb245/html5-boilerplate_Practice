@@ -17,12 +17,187 @@ select,
 textarea {
     color: #222;
 }
-
-body {
-    font-size: 1em;
-    line-height: 1.4;
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;   
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "jaf-bernino-sans", sans-serif;
+}
+h1{
+    font-size: 220%;
+    margin:0px;
+    line-height:100%;   
+}
+h2{
+    font-size: 200%; margin:0px;
+}
+h3{
+    font-size: 180%; margin:0px;
+}
+h4{
+    font-size: 150%; margin:0px;
+}
+h5{
+    font-size: 130%; margin:0px;
 }
 
+.ImageLogo
+{    
+    height:83px;
+    width:593px;
+    float:left;
+     
+    
+ }
+ .ImageLogo a{
+    background-image:url("img/xerox_logo.png"); 
+    background-repeat: no-repeat; 
+    background-color: white; 
+    image-orientation: auto;
+    text-decoration: none;
+ }
+ .ImageLogo p{
+    position:absolute;
+    font-family:arial,sans-serif;
+    font-size: 12px;
+    margin-left: 2px;
+    top: 40px;     
+    color:grey;
+ }
+body {
+     font-family: "jaf-bernino-sans", sans-serif;
+    font-size: 29px;
+    line-height: 41px;
+    color:#303030;
+}
+p{    
+    margin:0px;   
+}
+
+/* corner link*/
+#corner_links{
+    text-align: right;
+    float:right;
+    margin:0px;
+    padding:0px;
+    width:367px;
+    height:32px;
+   
+}
+#corner_links li{
+    font-size: 10px;
+    font-family: arial, sans-serif;
+    margin:10px;
+    padding:0px;
+    display:inline;    
+    list-style:none;   
+}
+
+#corner_links ul{
+ margin:0px;
+ padding:0px;   
+}
+
+#corner_links a {
+    color:black;
+    text-decoration:none;
+}
+#corner_links a:hover {
+    color:blue;
+    text-decoration:underline;
+}
+#corner_links a:selected {
+     text-decoration:none;
+}
+
+/* corner link*/
+.mainselection {
+    position: absolute;
+    top:83px;
+    left:800px;
+    float:right;
+    overflow:hidden;
+    width:350px;
+    margin:0px;
+    padding:0px;
+    
+   
+}
+
+select {
+    font-family:arial,sans-serif;
+    font-size: 12px;
+    border:0;
+    background-color: white;
+    height:25px;
+    border:1px solid #d8d8d8;
+    width:350px;
+    -webkit-appearance: none;
+}
+
+/* Primary link*/
+#primary_links{
+    clear:both;
+    margin:0px;
+    padding:0px;
+    width:960px;
+    height:53px;
+    background-color:#303030;
+    
+}
+
+#primary_links a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+#primary_links li{
+    font-size: 15px;
+    margin:20px;
+    padding-left:10px;
+    display:inline;    
+    list-style:none;
+    color:#303030;
+    
+}
+
+#primary_links ul{
+    margin:0px;
+    padding:0px;   
+}
+
+#primary_links a {
+    color:white;
+    text-decoration:none;
+    text-shadow: 1px 1px 3px #080808;
+}
+
+#primary_links a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+/* Primary link*/
+/* footer*/
+
+#main_footer{
+    padding-top:30px;
+    float:left; 
+    font-size:12px;    
+    clear:both;
+    margin:0px;
+    padding:0px;
+    width:960px;
+    height:53px;
+    color:grey;
+    text-align: center;
+    background-color:#303030;
+
+}
+
+/*footer*/
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -46,7 +221,7 @@ body {
 hr {
     display: block;
     height: 1px;
-    border: 0;
+    border: 1px;
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
@@ -55,11 +230,203 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-
-img {
-    vertical-align: middle;
+img.img-left {    
+    float: left;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-top:5px;
+    image-orientation: auto;
+    
 }
 
+#guide{
+    width:591px;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    float: left; 
+}
+
+#guide a{
+    text-decoration: none;
+     
+}
+
+#guide a:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #730000;
+   
+}
+#guide img{    
+    float: left;     
+    border: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom:1px;
+    margin-right: 3px;
+    
+    
+}
+
+#guide p{    
+    width:590px;    
+    margin:0px;
+    line-height: 21px;
+    font-size:14px;
+    border-bottom:1px solid #5C8AE6;
+    padding:0px;  
+    text-align: justify;
+}
+
+#guide header h6{
+    margin:0px;
+    padding:0px;
+    color:#730000;
+}
+
+#IAB-video-area{
+    float:left;
+    width: 301px;
+    height:250px;
+    margin-left: 34px;
+    margin-top: 0px;
+   
+}
+
+#adv-video video{
+  /*  float:right;*/
+  alignment-adjust: after-edge;
+  padding: 0px;
+  margin-top:0px;
+    
+}
+
+
+/* aside */
+
+aside{
+    float:left;
+    width: 360px;
+    height: 269px;   
+    margin: 0px;
+    padding: 0px;
+     
+   
+}
+aside header h6{
+    margin: 0px;
+    padding:0px;
+    color:#730000;
+}
+aside.img{
+    clear:both;
+    padding: 0px;
+    margin: 1px 1px 1px 1px;
+    box-shadow: -2px -2px;
+   
+     
+}
+aside.conversation {
+     float: left;
+     margin-top: 5px;
+     margin-left:3px;
+     margin-bottom: 0px;
+     list-style-type: none;
+    -moz-box-shadow: 5px 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px 5px #888;
+     
+}
+aside p {
+    margin:0px;
+    padding:0px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;    
+}
+/*content form*/
+aside.request-form header h6{
+    margin-left: 3px;
+    padding:0px;
+    color:#730000;
+}
+
+aside.request-form {
+    position: absolute;
+    left:790px;
+    top: 335px;
+     width:350px;
+    height:500px;
+    margin-left: 3px;  
+    padding:0px;   
+    font-family:arial,sans-serif;
+    font-size:13px;
+    line-height: 11px;
+    -moz-box-shadow: 5px 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px 5px #888;
+}
+
+aside.request-form table {
+    float:right;   
+    padding:3px;
+    margin: 10px;
+    font-family: arial,sans-serif;
+    text-height: 21px;
+     
+}
+aside.request-form header h6 {
+    color:#730000;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    
+}
+
+aside.request-form #submit-button{   
+    margin:0px;
+    float:left;
+}
+#psor_checkgroup {
+    text-align: justify;
+}
+/*conenet page aside*/
+aside.next-steps{
+    left:790px;
+    position: absolute;
+    top: 138px;
+    margin-top: 5px;
+    margin-left: 3px;       
+    padding:0px;
+    width:350px;
+    height:177px;
+    -moz-box-shadow: 5px 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px 5px #888;
+    
+    
+}
+aside.next-steps p {
+    margin-left:3px;
+    padding:0px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;    
+}
+aside.next-steps header h6{
+    margin-left: 3px;
+    padding:0px;
+    color:#730000;
+}
+aside.next-steps #contact-no{
+    margin-left: 3px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 22px;
+    color:#003366;
+   
+}
 /*
  * Remove default fieldset styles.
  */
@@ -92,9 +459,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
 
 
 
