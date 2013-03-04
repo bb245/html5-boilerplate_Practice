@@ -14,13 +14,14 @@ html,
 button,
 input,
 select,
-textarea {
-    color: #222;
+textarea {   
+    font-family: helvetica,sans-serif;    
 }
 #container {
     margin-left:auto;
     margin-right:auto;
-    width:960px;   
+    width:960px;
+
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: "jaf-bernino-sans", sans-serif;
@@ -47,8 +48,7 @@ h5{
 {    
     height:83px;
     width:593px;
-    float:left;
-     
+    float:left;     
     
  }
  .ImageLogo a{
@@ -60,7 +60,7 @@ h5{
  }
  .ImageLogo p{
     position:absolute;
-    font-family:arial,sans-serif;
+    font-family:helvetica,sans-serif;
     font-size: 12px;
     margin-left: 2px;
     top: 40px;     
@@ -70,7 +70,7 @@ body {
      font-family: "jaf-bernino-sans", sans-serif;
     font-size: 29px;
     line-height: 41px;
-    color:#303030;
+    color:#79786a;
 }
 p{    
     margin:0px;   
@@ -88,7 +88,7 @@ p{
 }
 #corner_links li{
     font-size: 10px;
-    font-family: arial, sans-serif;
+    font-family: helvetica, sans-serif;
     margin:10px;
     padding:0px;
     display:inline;    
@@ -101,7 +101,7 @@ p{
 }
 
 #corner_links a {
-    color:black;
+    color:#79786a;
     text-decoration:none;
 }
 #corner_links a:hover {
@@ -127,7 +127,7 @@ p{
 }
 
 select {
-    font-family:arial,sans-serif;
+    font-family:helvetica,sans-serif;
     font-size: 12px;
     border:0;
     background-color: white;
@@ -144,7 +144,7 @@ select {
     padding:0px;
     width:960px;
     height:53px;
-    background-color:#303030;
+    background-color:#79786a;
     
 }
 
@@ -176,7 +176,8 @@ select {
 
 #primary_links a:hover{
     color:white;
-    text-decoration: underline;
+    text-decoration: overline;
+  
 }
 
 /* Primary link*/
@@ -193,7 +194,7 @@ select {
     height:53px;
     color:grey;
     text-align: center;
-    background-color:#303030;
+    background-color:#79786a;
 
 }
 
@@ -237,6 +238,7 @@ img.img-left {
     margin: 0px;
     margin-top:5px;
     image-orientation: auto;
+  
     
 }
 
@@ -254,8 +256,8 @@ img.img-left {
 }
 
 #guide a:hover{
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #730000;
+    text-decoration: overline;
+    
    
 }
 #guide img{    
@@ -286,18 +288,18 @@ img.img-left {
 }
 
 #IAB-video-area{
-    float:left;
-    width: 301px;
-    height:250px;
+    float:left;    
     margin-left: 34px;
-    margin-top: 0px;
+    margin-top: 0px;   
    
 }
 
 #adv-video video{
-  /*  float:right;*/
+  float:right;
   alignment-adjust: after-edge;
   padding: 0px;
+  width: 300px;
+  height:250px;
   margin-top:0px;
     
 }
@@ -322,26 +324,24 @@ aside header h6{
 aside.img{
     clear:both;
     padding: 0px;
-    margin: 1px 1px 1px 1px;
-    box-shadow: -2px -2px;
-   
+    margin: 1px 1px 1px 1px;   
      
 }
 aside.conversation {
      float: left;
      margin-top: 5px;
-     margin-left:3px;
+     margin-left:5px;
      margin-bottom: 0px;
      list-style-type: none;
-    -moz-box-shadow: 5px 5px 5px 5px #888;
-    -webkit-box-shadow: 5px 5px 5px 5px #888;
-    box-shadow: 5px 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px 5px #79786a;
+    -webkit-box-shadow: 5px 5px 5px 5px #79786a;
+    box-shadow: 5px 5px 5px 5px #79786a;
      
 }
 aside p {
     margin:0px;
     padding:0px;
-    font-family: arial, sans-serif;
+    font-family: helvetica, sans-serif;
     font-size: 12px;
     line-height: 18px;    
 }
@@ -360,26 +360,26 @@ aside.request-form {
     height:500px;
     margin-left: 3px;  
     padding:0px;   
-    font-family:arial,sans-serif;
+    font-family:helvetica,sans-serif;
     font-size:13px;
     line-height: 11px;
-    -moz-box-shadow: 5px 5px 5px 5px #888;
-    -webkit-box-shadow: 5px 5px 5px 5px #888;
-    box-shadow: 5px 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px 5px #79786a;
+    -webkit-box-shadow: 5px 5px 5px 5px #79786a;
+    box-shadow: 5px 5px 5px 5px #79786a;
 }
 
 aside.request-form table {
     float:right;   
     padding:3px;
     margin: 10px;
-    font-family: arial,sans-serif;
+    font-family: helvetica,sans-serif;
     text-height: 21px;
      
 }
 aside.request-form header h6 {
     color:#730000;
     font-size: 20px;
-    font-family: arial,sans-serif;
+    font-family: helvetica,sans-serif;
     
 }
 
@@ -400,16 +400,16 @@ aside.next-steps{
     padding:0px;
     width:350px;
     height:177px;
-    -moz-box-shadow: 5px 5px 5px 5px #888;
-    -webkit-box-shadow: 5px 5px 5px 5px #888;
-    box-shadow: 5px 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px 5px #79786a;
+    -webkit-box-shadow: 5px 5px 5px 5px #79786a;
+    box-shadow: 5px 5px 5px 5px #79786a;
     
     
 }
 aside.next-steps p {
     margin-left:3px;
     padding:0px;
-    font-family: arial, sans-serif;
+    font-family: helvetica, sans-serif;
     font-size: 12px;
     line-height: 20px;    
 }
@@ -420,7 +420,7 @@ aside.next-steps header h6{
 }
 aside.next-steps #contact-no{
     margin-left: 3px;
-    font-family: arial, sans-serif;
+    font-family: helvetica, sans-serif;
     font-size: 15px;
     text-align: left;
     line-height: 22px;
